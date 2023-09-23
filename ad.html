@@ -15,7 +15,7 @@
             var adContainer = document.querySelector('div');
             var loadedCount = 0;
             var lastLoadedCount = 0;
-            var src = location.href.split("?")[1]
+            var src = location.href.split("?")[1].split("-")[0]+"?"+location.href.split("?")[1].split("-")[1]
             document.querySelector("spann").innerHTML = src
 
             function run() {
