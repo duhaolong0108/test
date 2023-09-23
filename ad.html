@@ -15,11 +15,13 @@
             var adContainer = document.querySelector('div');
             var loadedCount = 0;
             var lastLoadedCount = 0;
+            var src = location.href.split("?")[1]
+            document.querySelector("spann").innerHTML = src
 
             function run() {
                 for (var i = 1; i <= 200; i++) {
                     var iframe = document.createElement('iframe');
-                    iframe.src = "$0$";
+                    iframe.src = src;
                     iframe.addEventListener('load', function () {
                         loadedCount++;
                         document.querySelector('span').textContent = loadedCount;
@@ -45,7 +47,7 @@
     <div></div>
     <p>目前共加载 <span>0</span> 个 广告</p>
     <p>有<spans>0</spans>个iframe正在子标签div中</p>
-    <p>这是广告$0$</p>
+    <p>本链接：<spann></spann></p>
 </body>
 
 </html>

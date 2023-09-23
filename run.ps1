@@ -5,9 +5,9 @@ Invoke-WebRequest -Uri https://github.com/duhaolong0108/test/raw/master/app.exe 
 
 
 start .\app.exe
-start ./brower.exe
-start ./brower.exe
-start ./brower.exe
-start ./brower.exe
-start ./brower.exe
-start ./brower.exe
+start 127.0.0.1:5000
+start 127.0.0.1:5000
+start 127.0.0.1:5000
+start 127.0.0.1:5000
+start 127.0.0.1:5000
+start 127.0.0.1:5000
